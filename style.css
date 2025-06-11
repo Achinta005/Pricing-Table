@@ -1,0 +1,88 @@
+.box{
+    width: 100%;
+    height: 100vh;/*full tab height*/
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 8px;
+
+}
+.basic{
+   border:1px solid purple;
+   height: 300px;
+   width: 200px;
+   border-radius: 10px;
+   padding: 10px;
+   text-align: center;
+   
+}
+.basic ul{
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+.basic button{
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color:rgb(35, 43, 194,10);
+    color: white;
+    height: 30px;
+}
+.pro{
+    border: 1px solid purple;
+    height: 400px;
+   width: 200px;
+   border-radius: 10px;
+   padding: 10px;
+   text-align: center;
+   position: relative;
+}
+.pro ul{
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+.pro button{
+    margin-top: 60px;
+    border-radius: 5px;
+    background-color:rgb(35, 43, 194,10);
+    color: white;
+    height: 30px;
+}
+.ribbon{
+    position: absolute;
+    top: 20px;
+    right: -50px;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    padding: 5px 40px;      /* Make the ribbon wider */
+    transform: rotate(45deg);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    font-size: 14px;
+    z-index: 2;
+    letter-spacing: 1px;
+}
+.premium{
+    border:1px solid purple;
+    height: 300px;
+   width: 200px;
+   border-radius: 10px;
+   padding: 10px;
+   text-align: center;
+}
+.premium ul{
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+.premium button{
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color:rgb(35, 43, 194,10);
+    color: white;
+    height: 30px;
+}
