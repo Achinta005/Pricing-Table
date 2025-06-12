@@ -7,6 +7,10 @@
     gap: 8px;
 
 }
+.head{
+    text-align: center;
+    text-decoration: underline;
+}
 .basic{
    border:1px solid purple;
    height: 300px;
