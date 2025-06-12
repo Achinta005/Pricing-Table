@@ -53,17 +53,18 @@
 }
 .ribbon{
     position: absolute;
-    top: 20px;
-    right: -50px;
+    top: 37px;
+    right: 13px;
     background: orange;
     color: white;
     font-weight: bold;
-    padding: 5px 40px;      /* Make the ribbon wider */
-    transform: rotate(45deg);
+    padding: 3px 25px;      /* Make the ribbon wider */
+    transform: translate(30%,-30%)rotate(45deg);
     box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     font-size: 14px;
     z-index: 2;
     letter-spacing: 1px;
+    clip-path: polygon(16% 0, 83% 0, 100% 100%, 0% 100%);
 }
 .premium{
     border:1px solid purple;
@@ -85,4 +86,11 @@
     background-color:rgb(35, 43, 194,10);
     color: white;
     height: 30px;
+} 
+.basic,.pro,.premium{
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
+}
+.basic:hover,.pro:hover,.premium:hover{
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
