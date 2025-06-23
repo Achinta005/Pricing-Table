@@ -98,3 +98,37 @@
     transform: scale(1.03);
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
+
+
+#btn{
+    height: 50px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+}
+.button_container{
+    display: flex;
+    justify-content: flex-end;
+    margin:20px 40px 0 0; /* top, right, bottom, left */;
+}
+body.dark{
+    background-color: #181818;
+    color: #0cbe06;
+}
+body.dark .box,
+body.dark .basic,
+body.dark .pro,
+body.dark .premium {
+    background-color: #232323;
+    color: #0cbe06;
+    border-color: #fff;
+}
+body.dark .ribbon {
+    background: #0cbe06;
+    color: #fff;
+}
+body.dark #btn {
+    background-color: #444;
+    color: #0cbe06;
+}
